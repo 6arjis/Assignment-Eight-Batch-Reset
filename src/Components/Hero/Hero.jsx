@@ -1,3 +1,5 @@
+import { NavLink } from "react-router";
+
 const Hero = () => {
   return (
     <div>
@@ -13,8 +15,8 @@ const Hero = () => {
           the next level. From smart devices to the coolest accessories, we have
           it all!
         </p>
-        <button className="btn btn-outline text-xl w-24 bg-white text-purple-700 rounded-2xl">
-          Error
+        <button className="btn btn-outline text-md w-28 bg-white text-purple-700 rounded-xl">
+          <NavLink to="/dashboard">Show Now</NavLink>
         </button>
       </div>
       <div className="flex justify-center items-center relative bottom-16">

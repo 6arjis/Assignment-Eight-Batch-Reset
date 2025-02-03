@@ -3,7 +3,7 @@ import { SiShopify } from "react-icons/si";
 import { TiHeartFullOutline } from "react-icons/ti";
 const NavBar = () => {
   return (
-    <div className=" bg-purple-700 rounded-t-xl">
+    <div className=" bg-purple-700 rounded-t-xl text-white">
       <div className="navbar  max-w-7xl mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -29,13 +29,34 @@ const NavBar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <NavLink to="/">Home</NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? "bg-white text-purple-700" : ""
+                  }
+                  to="/"
+                >
+                  Home
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/dashboard">Dashboard</NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? "bg-white text-purple-700" : ""
+                  }
+                  to="/dashboard"
+                >
+                  Dashboard
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/stats">Stats</NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? "bg-white text-purple-700" : ""
+                  }
+                  to="/stats"
+                >
+                  Stats
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -44,13 +65,34 @@ const NavBar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "bg-white text-purple-700" : ""
+                }
+                to="/"
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/dashboard">Dashboard</NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "bg-white text-purple-700" : ""
+                }
+                to="/dashboard"
+              >
+                Dashboard
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/stats">Stats</NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "bg-white text-purple-700" : ""
+                }
+                to="/stats"
+              >
+                Stats
+              </NavLink>
             </li>
           </ul>
         </div>

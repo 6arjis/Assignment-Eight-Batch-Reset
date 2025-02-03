@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "product_id": "APL001",
+      "product_title": "iPhone 15 Pro Max",
+      "product_image": "https://ik.imagekit.io/6arjis/All%20Tech%20Items/Apple-iPhone-15-Pro-lineup-hero-230912.jpg.news_app_ed.jpg?updatedAt=1738472186142",
+      "category": "Smartphones",
+      "price": 1399,
+      "description": "The iPhone 15 Pro Max features an advanced A17 Pro chip, titanium design, and a sophisticated pro camera system with a 48MP main camera and 5x optical zoom.",
+      "specifications": [
+        "6.7-inch Super Retina XDR OLED display",
+        "A17 Pro chip",
+        "48MP main camera",
+        "Titanium frame",
+        "512GB storage",
+        "USB-C port"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "SMS001",
+      "product_title": "Samsung Galaxy S24 Ultra",
+      "product_image": "https://ik.imagekit.io/6arjis/All%20Tech%20Items/galaxy-s24-ultra-highlights-color-titanium-yellow-back-mo.jpg?updatedAt=1738472192513",
+      "category": "Smartphones",
+      "price": 1299,
+      "description": "The Galaxy S24 Ultra combines advanced AI capabilities with a powerful Snapdragon processor and an enhanced S Pen experience in a premium design.",
+      "specifications": [
+        "6.8-inch Dynamic AMOLED 2X display",
+        "Snapdragon 8 Gen 3",
+        "200MP main camera",
+        "12GB RAM",
+        "1TB storage",
+        "5000mAh battery"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "MSF001",
+      "product_title": "Microsoft Surface Laptop 5",
+      "product_image": "https://ik.imagekit.io/6arjis/All%20Tech%20Items/microsoft-surface-laptop-5-intel-core-i7-1265u-11697279015.webp?updatedAt=1738472212762",
+      "category": "Laptops",
+      "price": 1300,
+      "description": "Sleek and powerful laptop featuring Intel's latest processor, long battery life, and a stunning PixelSense touchscreen display.",
+      "specifications": [
+        "13.5-inch PixelSense Display",
+        "Intel Core i7-1255U",
+        "16GB RAM",
+        "512GB SSD",
+        "Windows 11 Pro",
+        "Up to 18 hours battery life"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "SNY001",
+      "product_title": "Sony WH-1000XM5",
+      "product_image": "https://ik.imagekit.io/6arjis/All%20Tech%20Items/Sony-WH-1000XM5-Black-5-square_medium.webp?updatedAt=1738472205162",
+      "category": "Audio",
+      "price": 399,
+      "description": "Industry-leading noise cancelling headphones with exceptional sound quality and advanced audio technologies.",
+      "specifications": [
+        "30-hour battery life",
+        "8 microphones for noise cancelling",
+        "40mm drivers",
+        "Multi-device pairing",
+        "Touch controls",
+        "LDAC support"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "LGE001",
+      "product_title": "LG C3 OLED TV",
+      "product_image": "https://ik.imagekit.io/6arjis/All%20Tech%20Items/OLED55C3PSA-OLED-TV-D-12.jpg?updatedAt=1738472195877",
+      "category": "TVs",
+      "price": 2500,
+      "description": "65-inch OLED TV delivering perfect blacks, incredible contrast, and stunning picture quality with advanced gaming features.",
+      "specifications": [
+        "65-inch 4K OLED display",
+        "120Hz refresh rate",
+        "HDMI 2.1",
+        "Dolby Vision IQ",
+        "webOS 23",
+        "G-SYNC Compatible"
+      ],
+      "availability": false,
+      "rating": 4.8
+    },
+    {
+      "product_id": "DLL001",
+      "product_title": "Dell XPS 15",
+      "product_image": "https://ik.imagekit.io/6arjis/All%20Tech%20Items/small_dell_xps_15_oled_open_angled2.webp?updatedAt=1738472209069",
+      "category": "Laptops",
+      "price": 2199,
+      "description": "Premium laptop combining powerful performance with a stunning 4K OLED display in a compact form factor.",
+      "specifications": [
+        "15.6-inch 4K OLED touch display",
+        "Intel Core i9-13900H",
+        "32GB RAM",
+        "1TB SSD",
+        "NVIDIA RTX 4070",
+        "86WHr battery"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "APL002",
+      "product_title": "Apple MacBook Pro 16",
+      "product_image": "https://ik.imagekit.io/6arjis/All%20Tech%20Items/macbookPro16.jpg?updatedAt=1738472200039",
+      "category": "Laptops",
+      "price": 2499,
+      "description": "Professional-grade laptop powered by M3 Max chip, featuring exceptional performance and battery life.",
+      "specifications": [
+        "16-inch Liquid Retina XDR display",
+        "M3 Max chip",
+        "32GB unified memory",
+        "1TB SSD",
+        "Up to 22 hours battery life",
+        "ProMotion technology"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "GOG001",
+      "product_title": "Google Pixel 8 Pro",
+      "product_image": "https://ik.imagekit.io/6arjis/All%20Tech%20Items/Pixel-8-Pro-Obsidian-7046.jpg?updatedAt=1738472189298",
+      "category": "Smartphones",
+      "price": 999,
+      "description": "Advanced smartphone featuring Google's latest AI capabilities and an exceptional camera system.",
+      "specifications": [
+        "6.7-inch LTPO OLED display",
+        "Google Tensor G3",
+        "50MP main camera",
+        "12GB RAM",
+        "256GB storage",
+        "5050mAh battery"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "ASS001",
+      "product_title": "ASUS ROG Zephyrus G14",
+      "product_image": "https://ik.imagekit.io/6arjis/All%20Tech%20Items/asus-rog-zephyrus-g14-2024_qw12.jpg?updatedAt=1738472182974",
+      "category": "Gaming Laptops",
+      "price": 1799,
+      "description": "Compact gaming laptop delivering exceptional performance with AMD's latest processor and NVIDIA graphics.",
+      "specifications": [
+        "14-inch QHD 165Hz display",
+        "AMD Ryzen 9 7945HX",
+        "16GB DDR5 RAM",
+        "1TB NVMe SSD",
+        "NVIDIA RTX 4070",
+        "ROG Intelligent Cooling"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "BOS001",
+      "product_title": "Bose QuietComfort Ultra",
+      "product_image": "https://ik.imagekit.io/6arjis/All%20Tech%20Items/BO8800661200_7.webp?updatedAt=1738472215987",
+      "category": "Audio",
+      "price": 429,
+      "description": "Premium noise-cancelling headphones featuring immersive audio technology and superior comfort.",
+      "specifications": [
+        "24-hour battery life",
+        "CustomTune technology",
+        "Bluetooth 5.3",
+        "Spatial audio",
+        "Touch controls",
+        "Multi-point connection"
+      ],
+      "availability": true,
+      "rating": 4.7
+    }
+  ]
+}

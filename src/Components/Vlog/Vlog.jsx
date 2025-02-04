@@ -18,7 +18,7 @@ const Vlog = ({ vlog }) => {
   return (
     <div>
       <Helmet>
-        <title>Vlogs</title>
+        <title>Vlogs | Gadget Heaven</title>
       </Helmet>
       <div className="card  lg:card-side bg-base-100 shadow-sm md:p-5 m-2 bg-purple-300">
         <figure className="md:w-1/2">

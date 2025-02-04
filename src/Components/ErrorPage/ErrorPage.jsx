@@ -1,3 +1,4 @@
+import ErrorImg from "../../assets/error404.webp";
 const ErrorPage = () => {
   return (
     <div>
@@ -11,7 +12,7 @@ const ErrorPage = () => {
       </div>
       <div className="flex justify-center items-center relative bottom-45">
         <img
-          src="/src/assets/error404.webp"
+          src={ErrorImg}
           className="md:w-[1062px] md:h-[500px] rounded-xl md:border-15 
           "
           alt=""

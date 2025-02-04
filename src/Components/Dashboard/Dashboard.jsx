@@ -71,7 +71,7 @@ const Dashboard = () => {
   return (
     <div>
       <Helmet>
-        <title>Dashboard</title>
+        <title>Dashboard | Gadget Heaven</title>
       </Helmet>
       <div
         className="flex flex-col gap-4 pb-10

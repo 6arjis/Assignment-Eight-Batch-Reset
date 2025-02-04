@@ -29,7 +29,7 @@ const ProductDetails = () => {
   return (
     <div>
       <Helmet>
-        <title>Product Details</title>
+        <title>Product Details | Gadget Heaven</title>
       </Helmet>
       {products.map((product, idx) =>
         product_id === product.product_id ? (

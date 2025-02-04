@@ -38,8 +38,8 @@ const ItemsHome = () => {
       <h1 className="text-center text-purple-700 md:text-6xl text-3xl mt-3 font-bold mb-3">
         Explore Cutting Edge Gadgets
       </h1>
-      <div className="max-w-7xl mx-auto flex gap-5">
-        <div className="w-1/6 flex flex-col gap-2.5">
+      <div className="max-w-7xl mx-auto md:flex gap-5">
+        <div className="md:w-1/6 flex flex-col gap-2.5">
           {itemsCategory.map((category, idx) => {
             return (
               <button
@@ -56,7 +56,7 @@ const ItemsHome = () => {
             );
           })}
         </div>
-        <div className="w-5/6 grid grid-cols-3 gap-1">
+        <div className="w-5/6 grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3  gap-1">
           {items.map((item) =>
             activeCategory === "All Products" ||
             item.category === activeCategory ? (

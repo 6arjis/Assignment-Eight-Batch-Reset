@@ -21,6 +21,9 @@ const addToShoppingCart = (id) => {
     toast("New Item has been added to cart");
   }
 };
+const emptyShoppingCartData = () => {
+  localStorage.removeItem("cart-item");
+};
 
 const getWishListData = () => {
   const wishListDataStr = localStorage.getItem("wish-list");
@@ -45,4 +48,10 @@ const addToWishList = (id) => {
   }
 };
 
-export { addToShoppingCart, addToWishList };
+export {
+  addToShoppingCart,
+  addToWishList,
+  getShoppingCardData,
+  getWishListData,
+  emptyShoppingCartData,
+};

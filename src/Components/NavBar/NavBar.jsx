@@ -1,9 +1,18 @@
-import { NavLink } from "react-router";
+import { NavLink, useLocation } from "react-router";
 import { SiShopify } from "react-icons/si";
 import { TiHeartFullOutline } from "react-icons/ti";
 const NavBar = () => {
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
+  console.log(location);
   return (
-    <div className=" bg-purple-700 rounded-t-xl text-white">
+    <div
+      className={`${
+        isHomePage
+          ? "bg-purple-700 rounded-t-xl text-white"
+          : "bg-white text-purple-700"
+      }`}
+    >
       <div className="navbar  max-w-7xl mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -60,14 +69,14 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Gadget Heaven</a>
+          <a className=" text-xl">Gadget Heaven</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  isActive ? "bg-white text-purple-700" : ""
+                  isActive ? "bg-white text-purple-700 font-bold" : ""
                 }
                 to="/"
               >
@@ -77,7 +86,7 @@ const NavBar = () => {
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  isActive ? "bg-white text-purple-700" : ""
+                  isActive ? "bg-white text-purple-700 font-bold" : ""
                 }
                 to="/dashboard"
               >
@@ -87,7 +96,7 @@ const NavBar = () => {
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  isActive ? "bg-white text-purple-700" : ""
+                  isActive ? "bg-white text-purple-700 font-bold" : ""
                 }
                 to="/stats"
               >

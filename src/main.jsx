@@ -9,7 +9,6 @@ import Dashboard from "./Components/Dashboard/Dashboard.jsx";
 import Stats from "./Components/Stats/Stats.jsx";
 import ProductDetails from "./Components/ProductDetails/ProductDetails.jsx";
 import { ToastContainer } from "react-toastify";
-
 const router = createBrowserRouter([
   {
     path: "/",

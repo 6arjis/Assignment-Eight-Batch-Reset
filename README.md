@@ -1,8 +1,64 @@
-# React + Vite
+# Gadget Heaven - E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Gadget Heaven** project! This is a fully functional e-commerce website built using **React** and **Vite**. The website features a dynamic and interactive user experience for browsing and purchasing gadgets.
 
-Currently, two official plugins are available:
+## Live Website Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Live Demo of Gadget Heaven](#) _(Replace with actual link)_
+
+## Requirement Document Link
+
+[Requirement Document](#) _(Replace with actual link)_
+
+## React Fundamental Concepts Used
+
+- **Components**: Modular structure using functional components.
+- **Props**: Passing data between components.
+- **State Management**: Using React's `useState` and `useContext` for managing state.
+- **Routing**: Implementing navigation using `react-router-dom`.
+- **Effects**: Using `useEffect` for side effects like fetching data.
+- **Custom Hooks**: Creating reusable hooks for specific functionalities.
+
+## Data Handling and Management
+
+- **Context API**: Used for managing global state across components, such as cart and wishlist items.
+- **Local Storage**: Persisting cart and wishlist data even after page reloads.
+
+## Features of Gadget Heaven
+
+1. **Dynamic Navbar**:
+
+   - Includes logo, brand name, dashboard, and stats.
+   - Active routes are indicated in the navbar.
+
+2. **Home Page**:
+
+   - Attractive banner with a button linking to the dashboard.
+   - Sidebar for gadget categories (computers, phones, smart watches, chargers, power banks).
+   - Gadget cards displayed in a grid format with product images, titles, prices, and details buttons.
+
+3. **Details Page**:
+
+   - Displays comprehensive information about each product including image, name, price, description, specifications, availability, and rating.
+   - Buttons to add items to the cart or wishlist.
+
+4. **Dashboard Page**:
+
+   - Two tabs for Cart and Wishlist.
+   - Cart shows total price and allows sorting by price.
+   - Wishlist displays saved items with options to remove them.
+
+5. **Responsive Design**:
+   - The layout adapts to different screen sizes ensuring a seamless experience on mobile and desktop devices.
+
+## Additional Functionality
+
+- **404 Page Handling**: Custom error page for invalid routes.
+- **Toast Notifications**: Notifications for adding items to the cart or wishlist.
+- **Dynamic Page Titles**: Each page has a unique title based on its content.
+- **Favicon Integration**: Custom favicon added to enhance branding.
+
+## Challenge Tasks Implemented
+
+- Different background colors for the navbar depending on the current route using `useLocation()`.
+- Modal confirmation on purchase with redirection to the home page using `useNavigate()`.

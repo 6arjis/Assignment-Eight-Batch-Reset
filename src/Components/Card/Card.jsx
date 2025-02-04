@@ -16,12 +16,9 @@ const Card = ({ item }) => {
           <h2 className="card-title">{product_title}</h2>
           <p>${price}</p>
           <div className="card-actions justify-end">
-            <NavLink
-              to="/product_details"
-              className="btn outline text-purple-700 outline-purple-700"
-            >
+            <button className="btn outline text-purple-700 outline-purple-700">
               Show Details
-            </NavLink>
+            </button>
           </div>
         </div>
       </div>

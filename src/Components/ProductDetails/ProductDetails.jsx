@@ -52,7 +52,7 @@ const ProductDetails = () => {
                   "
                   >
                     <div className="text-center lg:text-left md:w-1/2">
-                      <h1 className="md:text-5xl text-xl font-bold">
+                      <h1 className="md:text-4xl  font-bold">
                         {product.product_title}
                       </h1>
                       <p className="my-2">Price : ${product.price}</p>

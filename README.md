@@ -4,11 +4,11 @@ Welcome to the **Gadget Heaven** project! This is a fully functional e-commerce 
 
 ## Live Website Link
 
-[Live Demo of Gadget Heaven](#) _(Replace with actual link)_
+[https://soft-kringle-580750.netlify.app/](#)
 
 ## Requirement Document Link
 
-[Requirement Document](#) _(Replace with actual link)_
+[https://legacy.reactjs.org/docs/getting-started.html](#)
 
 ## React Fundamental Concepts Used
 

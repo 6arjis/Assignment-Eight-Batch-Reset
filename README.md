@@ -8,7 +8,7 @@ Welcome to the **Gadget Heaven** project! This is a fully functional e-commerce 
 
 ## Requirement Document Link
 
-[Visit Live Website](https://legacy.reactjs.org/docs/getting-started.html)
+[Visit Requirement Document Link](https://legacy.reactjs.org/docs/getting-started.html)
 
 ## React Fundamental Concepts Used
 

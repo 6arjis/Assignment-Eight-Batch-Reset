@@ -1,0 +1,84 @@
+{
+  "technology_news": [
+    {
+      "headline": "OpenAI Revolutionizes AI with Multimodal Cognitive Architecture",
+      "news": "OpenAI has unveiled its most advanced AI model, featuring unprecedented multimodal capabilities that seamlessly integrate text, image, and audio processing. The system demonstrates remarkable ability to understand context and generate complex reasoning strategies across multiple domains.",
+      "writer": "Sarah Thompson",
+      "likes": 12543,
+      "dislikes": 456,
+      "image": "https://ik.imagekit.io/6arjis/Tech%20News%20Img/Success-Story-of-Open-AI.webp?updatedAt=1738682028840"
+    },
+    {
+      "headline": "Google Quantum Computing Shatters Computational Boundaries",
+      "news": "Google's quantum computing team achieved a breakthrough by maintaining quantum coherence for an unprecedented 10 minutes, expanding potential applications in cryptography, drug discovery, and complex scientific modeling.",
+      "writer": "Dr. Michael Chen",
+      "likes": 8976,
+      "dislikes": 312,
+      "image": "https://ik.imagekit.io/6arjis/Tech%20News%20Img/Quantum-Computing-1.jpg?updatedAt=1738682030435"
+    },
+    {
+      "headline": "Tesla's Revolutionary 1000-Mile Range Electric Vehicle",
+      "news": "Tesla introduced a groundbreaking electric vehicle featuring next-generation solid-state battery technology, offering a 1000-mile range and advanced AI-driven energy management systems that redefine electric transportation.",
+      "writer": "Emily Rodriguez",
+      "likes": 15234,
+      "dislikes": 987,
+      "image": "https://ik.imagekit.io/6arjis/Tech%20News%20Img/021_tesla_model_3.webp?updatedAt=1738682028625"
+    },
+    {
+      "headline": "Global 5G Satellite Network Promises Worldwide Connectivity",
+      "news": "A multinational consortium launched a comprehensive 5G satellite network designed to provide high-speed internet to the most remote regions, utilizing advanced low-Earth orbit satellite technology.",
+      "writer": "Alex Wong",
+      "likes": 10456,
+      "dislikes": 276,
+      "image": "https://ik.imagekit.io/6arjis/Tech%20News%20Img/MobileConnectivity.png?updatedAt=1738682029824"
+    },
+    {
+      "headline": "Breakthrough Graphene Battery Technology Transforms Energy Storage",
+      "news": "Researchers developed a revolutionary graphene-based battery with five times the energy density of current lithium-ion solutions, reducing charging times by 70% and tripling battery lifespan.",
+      "writer": "Dr. Rachel Kumar",
+      "likes": 9876,
+      "dislikes": 215,
+      "image": "https://ik.imagekit.io/6arjis/Tech%20News%20Img/GrapheneBattery.jpeg?updatedAt=1738682028959"
+    },
+    {
+      "headline": "Neural Interface Technology Enables Direct Brain-Computer Communication",
+      "news": "Neuralink demonstrated a breakthrough neural interface allowing direct communication between human brains and computers, opening unprecedented possibilities for medical treatments and human-machine interaction.",
+      "writer": "Dr. James Wilson",
+      "likes": 11234,
+      "dislikes": 532,
+      "image": "https://ik.imagekit.io/6arjis/Tech%20News%20Img/NeuralNet.png?updatedAt=1738682031179"
+    },
+    {
+      "headline": "Advanced Robotics Breakthrough in Surgical Assistance",
+      "news": "A new generation of surgical robots with AI-powered precision has been developed, capable of performing microsurgeries with accuracy surpassing human surgeons in complex medical procedures.",
+      "writer": "Elena Martinez",
+      "likes": 7655,
+      "dislikes": 189,
+      "image": "https://ik.imagekit.io/6arjis/Tech%20News%20Img/SurgialAssstance.avif?updatedAt=1738682028976"
+    },
+    {
+      "headline": "Breakthrough in Carbon Capture Technology Promises Climate Solution",
+      "news": "Scientists developed a revolutionary carbon capture technology that can remove carbon dioxide from the atmosphere 100 times more efficiently than previous methods, offering a potential game-changer in climate change mitigation.",
+      "writer": "Dr. David Kim",
+      "likes": 12987,
+      "dislikes": 345,
+      "image": "https://ik.imagekit.io/6arjis/Tech%20News%20Img/carbon.jpeg?updatedAt=1738682029153"
+    },
+    {
+      "headline": "Augmented Reality Glasses Redefine Personal Computing",
+      "news": "Tech giant unveils next-generation augmented reality glasses with full holographic display, real-time language translation, and seamless integration with personal and professional digital ecosystems.",
+      "writer": "Sophia Chen",
+      "likes": 9453,
+      "dislikes": 276,
+      "image": "https://ik.imagekit.io/6arjis/Tech%20News%20Img/AugmentedRealiity.png?updatedAt=1738682030322"
+    },
+    {
+      "headline": "Advanced Nanotechnology Enables Targeted Drug Delivery",
+      "news": "Breakthrough in nanotechnology creates microscopic robots capable of precisely targeting and delivering medication directly to specific cells, revolutionizing potential treatments for cancer and other complex diseases.",
+      "writer": "Dr. Maria Rodriguez",
+      "likes": 8765,
+      "dislikes": 201,
+      "image": "https://ik.imagekit.io/6arjis/Tech%20News%20Img/NanoTeh.webp?updatedAt=1738682029264"
+    }
+  ]
+}

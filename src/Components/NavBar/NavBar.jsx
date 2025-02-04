@@ -57,14 +57,15 @@ const NavBar = () => {
                   Dashboard
                 </NavLink>
               </li>
+
               <li>
                 <NavLink
                   className={({ isActive }) =>
                     isActive ? "bg-white text-purple-700" : ""
                   }
-                  to="/stats"
+                  to="/vlogs"
                 >
-                  Stats
+                  Vlogs
                 </NavLink>
               </li>
             </ul>
@@ -93,14 +94,15 @@ const NavBar = () => {
                 Dashboard
               </NavLink>
             </li>
+
             <li>
               <NavLink
                 className={({ isActive }) =>
                   isActive ? "bg-white text-purple-700 font-bold" : ""
                 }
-                to="/stats"
+                to="/vlogs"
               >
-                Stats
+                Vlogs
               </NavLink>
             </li>
           </ul>

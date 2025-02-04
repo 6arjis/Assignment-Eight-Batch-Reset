@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import { Helmet } from "react-helmet";
 import { useParams } from "react-router";
 import { RiShoppingBag4Line } from "react-icons/ri";
 import { TiHeartFullOutline } from "react-icons/ti";
@@ -28,6 +28,9 @@ const ProductDetails = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Product Details</title>
+      </Helmet>
       {products.map((product, idx) =>
         product_id === product.product_id ? (
           <div key={idx}>

@@ -35,8 +35,8 @@ const ItemsHome = () => {
 
   return (
     <div>
-      <h1 className="text-center text-purple-700 md:text-6xl text-3xl mt-3 font-bold mb-3">
-        Explore Cutting Edge Gadgets
+      <h1 className="text-center text-purple-700 md:text-6xl text-3xl mb-5 font-bold ">
+        Explore Cutting-Edge Gadgets
       </h1>
       <div className="max-w-7xl mx-auto md:flex gap-5">
         <div className="md:w-1/6 flex flex-col gap-2.5">

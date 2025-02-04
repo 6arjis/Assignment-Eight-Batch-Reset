@@ -3,6 +3,7 @@ import { ImCross } from "react-icons/im";
 import { ImSortNumbericDesc } from "react-icons/im";
 import "react-tabs/style/react-tabs.css";
 import GroupImage from "../../assets/Group.png";
+import { Helmet } from "react-helmet";
 
 import {
   emptyShoppingCartData,
@@ -69,6 +70,9 @@ const Dashboard = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Dashboard</title>
+      </Helmet>
       <div
         className="flex flex-col gap-4 pb-10
        justify-center items-center text-center bg-purple-700 p-4 relative top-0 left-0 w-full text-purple-200"

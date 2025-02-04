@@ -21,7 +21,6 @@ Welcome to the **Gadget Heaven** project! This is a fully functional e-commerce 
 
 ## Data Handling and Management
 
-- **Context API**: Used for managing global state across components, such as cart and wishlist items.
 - **Local Storage**: Persisting cart and wishlist data even after page reloads.
 
 ## Features of Gadget Heaven

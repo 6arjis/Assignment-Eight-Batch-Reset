@@ -9,6 +9,7 @@ import Dashboard from "./Components/Dashboard/Dashboard.jsx";
 import Stats from "./Components/Stats/Stats.jsx";
 import ProductDetails from "./Components/ProductDetails/ProductDetails.jsx";
 import { ToastContainer } from "react-toastify";
+import Vlogs from "./Components/Vlogs/Vlogs.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "product/:product_id",
         element: <ProductDetails></ProductDetails>,
+      },
+      {
+        path: "vlogs",
+        element: <Vlogs></Vlogs>,
       },
     ],
   },
